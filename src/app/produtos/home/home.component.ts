@@ -10,6 +10,7 @@ import { Product } from 'src/app/module/diverse.modul';
 export class HomeComponent implements OnInit {
   products: Product[];
   responsiveOptions;
+  visibleSidebar1;
   constructor(private diverseService: DiverseService) {
     this.responsiveOptions = [
       {

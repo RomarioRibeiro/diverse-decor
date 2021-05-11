@@ -13,6 +13,7 @@ import {CarouselModule} from 'primeng/carousel';
 import { FooldComponent } from './header/foolder/nav/foold/foold.component';
 import { HomeComponent } from './produtos/home/home.component';
 import { TesteComponent } from './produtos/teste/teste.component';
+import {SidebarModule} from 'primeng/sidebar';
 
 
 
@@ -34,7 +35,8 @@ import { TesteComponent } from './produtos/teste/teste.component';
     ButtonModule,
     BrowserAnimationsModule,
     CarouselModule,
-    HttpClientModule
+    HttpClientModule,
+    SidebarModule
 
   ],
   providers: [],

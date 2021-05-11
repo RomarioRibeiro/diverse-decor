@@ -1,6 +1,6 @@
 import { DiverseService } from './../../../../service/diverse.service';
 import { Component, OnInit } from '@angular/core';
-import { MegaMenuItem, MenuItem } from 'primeng/api';
+import { MegaMenuItem, MenuItem, PrimeIcons } from 'primeng/api';
 
 @Component({
   selector: 'app-heade',
@@ -16,7 +16,7 @@ export class HeadeComponent implements OnInit {
   ngOnInit(): void {
     this.items = [
       {
-          label: 'Videos', icon: 'pi pi-fw pi-video',
+          label: 'Videos', icon: PrimeIcons.BARS,
           items: [
               [
                   {
@@ -25,7 +25,7 @@ export class HeadeComponent implements OnInit {
                   },
                   {
                       label: 'Video 2',
-                      items: [{label: 'Video 2.1',routerLink: '/teste'}, {label: 'Video 2.2'}]
+                      items: [{label: 'Video 2.1', routerLink: '/teste'}, {label: 'Video 2.2'}]
                   }
               ],
               [
@@ -125,6 +125,7 @@ export class HeadeComponent implements OnInit {
               ]
           ]
       }
+  // tslint:disable-next-line: semicolon
   ]
 }
 
