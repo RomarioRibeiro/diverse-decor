@@ -34,6 +34,8 @@ import {DividerModule} from 'primeng/divider';
 import {StepsModule} from 'primeng/steps';
 import {MenuItem} from 'primeng/api';
 import {ScrollTopModule} from 'primeng/scrolltop';
+import {MegaMenuModule} from 'primeng/megamenu';
+import {CarouselModule} from 'primeng/carousel';
 // import {HotkeyModule} from 'angular2-hotkeys';
 
 
@@ -77,7 +79,9 @@ import {ScrollTopModule} from 'primeng/scrolltop';
     TagModule,
     DividerModule,
     StepsModule,
-    ScrollTopModule
+    ScrollTopModule,
+    MegaMenuModule,
+    CarouselModule
   ]
 })
 export class PrimengModule { }

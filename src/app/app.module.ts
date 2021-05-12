@@ -3,28 +3,27 @@ import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule} from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeadeComponent } from './header/foolder/nav/heade/heade.component';
-import { FooldComponent } from './header/foolder/nav/foold/foold.component';
-import { HomeComponent } from './produtos/home/home.component';
-import { TesteComponent } from './produtos/teste/teste.component';
 import { PrimengModule } from './primeng.module';
+import { HeaderComponent } from './shared/layout/header/header.component';
+import {MegaMenuModule} from 'primeng/megamenu';
+import { FooterComponent } from './shared/layout/footer/footer.component';
+
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeadeComponent,
-    FooldComponent,
-    HomeComponent,
-    TesteComponent
+    HeaderComponent,
+    FooterComponent
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    PrimengModule
+    PrimengModule,
+    MegaMenuModule
 
 
   ],

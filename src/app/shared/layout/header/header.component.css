@@ -1,0 +1,30 @@
+.title{
+  background-color: #6e7c7c;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  }
+
+   img{
+    max-width: 110px;
+    text-align: center;
+    display: block;
+    margin: 5px  auto;
+  }
+
+  .teste{
+    background-color: blueviolet;
+  }
+
+  .sub{
+    background-color: blue;
+  }
+
+  .title a{
+    font-size: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }

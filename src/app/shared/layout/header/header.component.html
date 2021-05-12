@@ -1,9 +1,13 @@
-
 <div  class="title p-d-flex p-flex-column">
+  <a class="icons" routerLink="/">
     <i class="fas fa-home"></i>
     <img [src]="logo" alt="logo">
+  </a>
     <div class=" p-d-flex p-d-inline-flex p-flex-column">
-      <p-megaMenu [model]="items"></p-megaMenu>
-      <router-outlet></router-outlet>
-    </div>
+    <p-megaMenu [model]="items"></p-megaMenu>
+    <router-outlet></router-outlet>
   </div>
+</div>
+<app-footer></app-footer>
+
+
